@@ -61,9 +61,9 @@ li{
     font-size:5rem
 }
 span{
-    /* display: inline-block;
+    /* display: inline-block; */
     
-    line-height: normal; */
+    line-height: 130px;
 }
 
 .block-1{
@@ -119,6 +119,11 @@ span{
         width: 3%;
         height: 100%;
         float: left;
+    }
+    span{
+        /* display: inline-block; */
+        
+        line-height: 45px;
     }
 }
 </style>
