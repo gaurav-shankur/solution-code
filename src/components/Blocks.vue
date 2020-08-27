@@ -97,16 +97,16 @@ span{
 @media (max-width: 375px) {
     #block-container{
         width: 100%;
-        height: 90%
+        height: 80%
     }
     ul{
-        height: 80%;
+        height: 100%;
     }
     li{
         width: 90%;
         height: 11%;
         font-size: large;
-        font-style: bold;
+        font-weight: bold;
         margin: 2px 10px;
         color: black;
     }

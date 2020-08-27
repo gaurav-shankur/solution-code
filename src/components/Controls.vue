@@ -50,7 +50,7 @@ button:focus{
     
     #controls-container{
         display: inline-block;
-        width: 100%
+        width: 100%;
     }
     button{
         display: inline-block;
