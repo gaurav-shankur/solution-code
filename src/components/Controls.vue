@@ -34,7 +34,7 @@ export default {
 button{
     border: 0px solid transparent;
     background-color: #72C3DC;
-    box-shadow: 1px 1.5px #2B8EAD;
+    box-shadow: 1px 3px #2B8EAD;
     border-radius: 4px;
     width: 70%;
     height: 20px;
@@ -56,7 +56,7 @@ button:focus{
         display: inline-block;
         margin: 0px;
         width:25%;
-        height: 30px;
+        height: 50px;
     }
     .shuffle-btn{
         margin-right: 5px;

@@ -104,7 +104,7 @@ span{
     }
     li{
         width: 90%;
-        height: 11%;
+        height: 10%;
         font-size: large;
         font-weight: bold;
         margin: 2px 10px;
