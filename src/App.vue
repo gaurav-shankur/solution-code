@@ -27,7 +27,7 @@ export default {
 #app {
   text-align: center;
   color: #2c3e50;
-  width: 960px;
+  width: 100%;
   height: 500px;
   display: flex;
   flex-direction: row;
@@ -36,7 +36,7 @@ export default {
 @media (max-width: 375px) {
 
   #app {
-  width: 375px;
+  width: 100%;
   height: 600px;
   display: flex;
   flex-direction: column-reverse;
