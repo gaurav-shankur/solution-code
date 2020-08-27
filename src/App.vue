@@ -1,28 +1,46 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Blocks :sizeOfBlocks="sizeOfBlocks"/>
+    <Controls />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Blocks from './components/Blocks'
+import Controls from './components/Controls'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Blocks,
+    Controls
+  },
+  data(){
+    return{
+      sizeOfBlocks: 9
+    }
   }
 }
 </script>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  width: 960px;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 375px) {
+
+  #app {
+  width: 375px;
+  height: 500px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
 }
 </style>
