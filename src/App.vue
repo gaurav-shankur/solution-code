@@ -37,7 +37,7 @@ export default {
 
   #app {
   width: 375px;
-  height: 500px;
+  height: 600px;
   display: flex;
   flex-direction: column-reverse;
 }

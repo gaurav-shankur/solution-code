@@ -67,40 +67,31 @@ span{
 }
 
 .block-1{
-    
     background-color: #6F98A8;
-    /* background-color: #EFEFEF; */
 }
 .block-2{
     background-color: #2B8EAD;
-    /* background-color: #72C3DC; */
 }
 .block-3{
     background-color: #2F454E;
-    /* background-color: #2B8EAD; */
 }
 .block-4{
     background-color: #2B8EAD;
-    /* background-color: #6F98A8; */
 }
 .block-5{
     background-color: #2F454E;
-    /* background-color: #BFBFBF; */
 }
 .block-6{
     background-color: #EFEFEF;
-    /* background-color: #2F454E; */
 }
 .block-7{
     background-color: #EFEFEF;
-    /* background-color: #2F454E; */
 }
 .block-8{
     background-color: #72C3DC;
 }
 .block-9{
     background-color: #2F454E;
-    /* background-color: #000000; */
 }
 
 @media (max-width: 375px) {
